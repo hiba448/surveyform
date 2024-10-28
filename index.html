@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8"> 
+  </head>
+  <body>
+    <h1 id="title">
+      Welcome to the survey form
+    </h1>
+    <p id="description" class="description">Please fill in this survey form</p>
+    <form id="survey-form"> <div class="group">
+      <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" placeholder="enter name" required/>
+      </div>
+      <div class="group">
+      <label id="email-label" for="email">email</label>
+        <input id="email" type="email" placeholder="enter email" required/>
+        </div>
+        <div class="group">
+          <label id="number-label" for="number">Age</label>
+          <input id="number" type="number" placeholder="enter age" min="13" max="90" required/>
+        </div>
+        <div class="group">
+          <label>Do you love:</label>
+          <select id="dropdown">
+          <option disabled selected value>choose an animal</option>
+          <option>dogs</option>
+          <option>cats</option>
+        </select>
+      </div>
+      <div class="group">
+        <label>Do you live in Morocco ?</label>
+        <input type="radio" name="yes-no" value="yes" /> yes
+        <input type="radio" name="yes-no" value="no" /> no
+      </div>
+      <div class="group">
+        <p>Select cities you like in Morocco</p>
+      <label> <input type="checkbox" value="Rabat"/>
+      Rabat </label>
+      <label> <input type="checkbox" value="Casablanca"/>
+      Casablanca </label>
+      <label> <input type="checkbox" value="Tangier"/>
+      Tangier </label>
+      <label> <input type="checkbox" value="Marrakesh"/>
+      Agadir </label>
+      </div>
+      <div class="group">
+        <p>Add additonnal comment</p>
+        <textarea placeholder="enter something.."></textarea>
+        </div>
+        <div class="group">
+          <input type="submit" id="submit" value="Submit" 
+        </div>
+    </form>
+
+
+  </body>
+</html>
