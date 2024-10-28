@@ -1,0 +1,59 @@
+h1{
+  text-align: center; 
+}
+.description{
+  text-align: center;
+}
+body{
+background-color:#abeddb;
+font-family: "Brush Script MT",cursive;
+border-style: dotted;
+border-width: 2px;
+border-color: #367359;
+font-size: 130%
+}
+form{
+  text-align: center;
+  background-color: #a7fad7;
+  margin: 0 300 40 300;
+border-style: solid;
+border-color: #0a4029;
+}
+input[type=text],input[type=email], select {
+  padding: 7px 7px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number]{
+  width: 40%;
+  padding: 7px 7px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea{
+   width: 40%;
+  padding: 7px 7px;
+  margin: -20 0 15 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="submit"]{
+  padding: 5px 28px;
+  border-radius: 9px;
+  background-color: #66d497;
+  margin: 0 0 12 0;
+  color: green;
+  transition-duration: 0.4s;
+
+  }
+  input[type="submit"]:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+
+
